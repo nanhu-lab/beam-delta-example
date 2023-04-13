@@ -1,7 +1,5 @@
 # beam-delta-example
 An example to show how to make Apache Beam write data to Delta Lake,  and read data from Delta Lake.  
-## Requirements
-* The [beam-datalake](https://github.com/nanhu-lab/beam-datalake) project needs to be compiled and installed first.
 ## Quickstart
 Test cases are given in the BeamDeltaLakeTest document.
 1. First, create a delta table using initDeltaTable(), which contains four fields: id, user_name, user_age, user_remark.
@@ -17,7 +15,7 @@ A few important dependencies are shown below, and others are seen in the pom.xml
 </properties>
 <dependencies>
     <dependency>
-        <groupId>org.nanhulab</groupId>
+        <groupId>io.github.nanhu-lab</groupId>
         <artifactId>beam-datalake</artifactId>
         <version>1.0.0</version>
     </dependency>
